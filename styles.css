@@ -1,2 +1,63 @@
 
 /* Your CSS Code here. */
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f1419;
+      color: #f1f1f1;
+      line-height: 1.6;
+    }
+    header {
+      background: #1c1f24;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      border-bottom: 2px solid #f1c40f;
+    }
+    nav {
+      background: #222831;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #f1c40f;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00adb5;
+    }
+    section, aside {
+      padding: 20px;
+    }
+    section {
+      margin: 20px;
+      border-radius: 8px;
+      background: #1f242d;
+    }
+    aside {
+      background: #2b313c;
+      margin: 20px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+    }
+    footer {
+      background: #1c1f24;
+      padding: 15px;
+      text-align: center;
+      border-top: 2px solid #f1c40f;
+      font-weight: bold;
+    }
+    h2 {
+      color: #00adb5;
+    }
+    blockquote {
+      font-style: italic;
+      color: #f1c40f;
+      margin: 10px 0;
+      border-left: 4px solid #f1c40f;
+      padding-left: 10px;
+    }
