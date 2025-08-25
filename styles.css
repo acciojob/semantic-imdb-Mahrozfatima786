@@ -1,63 +1,74 @@
-
-/* Your CSS Code here. */
- body {
+    body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #0f1419;
-      color: #f1f1f1;
-      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
     }
+
     header {
-      background: #1c1f24;
-      padding: 20px;
+      background: #222;
+      color: #fff;
       text-align: center;
-      font-size: 2rem;
+      padding: 20px;
+      font-size: 28px;
       font-weight: bold;
-      border-bottom: 2px solid #f1c40f;
     }
+
     nav {
-      background: #222831;
+      background: #444;
       padding: 10px;
       text-align: center;
     }
+
     nav a {
+      color: #fff;
       margin: 0 15px;
       text-decoration: none;
-      color: #f1c40f;
       font-weight: bold;
     }
+
     nav a:hover {
-      color: #00adb5;
+      text-decoration: underline;
     }
-    section, aside {
+
+    main {
+      display: flex;
+      margin: 20px;
+      gap: 20px;
+    }
+
+    article {
+      flex: 3;
+      background: #fff;
       padding: 20px;
-    }
-    section {
-      margin: 20px;
       border-radius: 8px;
-      background: #1f242d;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
     }
+
     aside {
-      background: #2b313c;
-      margin: 20px;
+      flex: 1;
+      background: #eee;
+      padding: 20px;
       border-radius: 8px;
-      font-size: 0.95rem;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
     }
-    footer {
-      background: #1c1f24;
-      padding: 15px;
-      text-align: center;
-      border-top: 2px solid #f1c40f;
-      font-weight: bold;
+
+    section {
+      margin-bottom: 20px;
     }
+
     h2 {
-      color: #00adb5;
+      color: #444;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
     }
-    blockquote {
-      font-style: italic;
-      color: #f1c40f;
-      margin: 10px 0;
-      border-left: 4px solid #f1c40f;
-      padding-left: 10px;
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      font-size: 14px;
     }
