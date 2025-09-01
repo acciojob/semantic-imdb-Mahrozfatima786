@@ -1,59 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inception Movie Page</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    Inception
-  </header>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
 
-  <nav>
-    <a id="nav-actor" href="#actor">Actors</a>
-    <a id="nav-quote" href="#quote">Quotes</a>
-  </nav>
+header {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-  <main>
-    <section id="summary">
-      <h2>Summary</h2>
-      <p>
-        Inception is a mind-bending thriller directed by Christopher Nolan. 
-        It follows Dom Cobb, a skilled thief who enters people's dreams to steal secrets. 
-        Cobb is offered a chance to have his past crimes forgiven if he can successfully 
-        perform inception — planting an idea in someone's mind.
-      </p>
-    </section>
+nav {
+  background: #444;
+  padding: 10px;
+  text-align: center;
+}
 
-    <section id="actor">
-      <h2>Actors</h2>
-      <ul>
-        <li>Leonardo DiCaprio as Dom Cobb</li>
-        <li>Joseph Gordon-Levitt as Arthur</li>
-        <li>Elliot Page as Ariadne</li>
-        <li>Tom Hardy as Eames</li>
-        <li>Ken Watanabe as Saito</li>
-      </ul>
-    </section>
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    <section id="quote">
-      <h2>Favorite Quote</h2>
-      <blockquote>
-        "You mustn't be afraid to dream a little bigger, darling." – Eames
-      </blockquote>
-    </section>
+nav a:hover {
+  text-decoration: underline;
+}
 
-    <aside>
-      <h2>Movie Info</h2>
-      <p><strong>IMDb Rating:</strong> 8.8/10</p>
-      <p><strong>Release Date:</strong> July 16, 2010</p>
-    </aside>
-  </main>
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  gap: 20px;
+}
 
-  <footer>
-    Produced by: Emma Thomas
-  </footer>
-</body>
-</html>
+section {
+  flex: 3 1 60%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+aside {
+  flex: 1 1 30%;
+  background: #eee;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  min-width:
